@@ -6,7 +6,7 @@ function Task2(){
     return(
         <>
             <h1>Task 2</h1>
-            {visible?<input type="text" value={password}/> :<input type="password" value={password}/> }
+            <input type={visible?"text":"password"} value={password}/>
             <button onClick={()=>{
                 setVisible(!visible)
             }}>{visible?"Hide":"Show"}</button>
