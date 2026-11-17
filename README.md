@@ -1,16 +1,81 @@
-# React + Vite
+# React Daily Problem Solving
+# 👋 About This Repository
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+  - This repository contains my daily React coding practice, where I solve React development questions and practical 
+      coding challenges generated with the help of AI.
+  - My main focus is to improve my React development skills, understand component-based architecture, 
+      strengthen my understanding of React concepts, and develop the ability to build functionality independently.
+  - I organise my solutions day-wise to track my learning progress and maintain consistency in React development practice.
 
-Currently, two official plugins are available:
+# 🎯 Objectives
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+  - Strengthen React fundamentals.
+  - Improve the ability to build React functionality from scratch.
+  - Understand component-based architecture.
+  - Develop a better understanding of props and state management.
+  - Improve component communication and data handling.
+  - Practise building interactive React components.
+  - Develop the ability to convert requirements into working functionality.
+  - Improve code readability and component organisation.
 
-## React Compiler
+# 🛠️ Technologies & Tools
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+  - React.js
+  - JavaScript (ES6+)
+  - JSX
+  - HTML5
+  - CSS3
+  - Visual Studio Code
+  - Git & GitHub
+  - AI-assisted question generation
 
-## Expanding the ESLint configuration
+# 📚 React Concepts Covered
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+  - React Fundamentals
+  - Functional Components
+  - JSX
+  - Props
+  - Parent-to-Child Communication
+  - Child-to-Parent Communication
+  - useState Hook
+  - Event Handling
+  - Conditional Rendering
+  - Lists and Keys
+  - Forms and Input Handling
+  - Component Reusability
+  - Rendering Dynamic Data
+  - Array Methods in React
+  - React Hooks
+  #New concepts and more advanced React challenges will be added as I progress in my learning journey.
+
+# 🧠 My Problem-Solving Approach
+
+  - For every React challenge, I follow these steps:
+  - Understand the given problem and requirements.
+  - Identify the components required to build the functionality.
+  - Plan the component structure and data flow.
+  - Identify the required props, state, and events.
+  - Implement the functionality using React.
+  - Test the application and verify the expected behaviour.
+  - Review the implementation and understand the concepts used.
+
+.
+
+# 📈 Learning Progress
+
+  - This repository is continuously updated with new React challenges and implementations.
+  - I practise different types of React tasks, starting with basic component development and gradually progressing towards more 
+      complex interactive functionality.
+  - My focus is not just on completing tasks but also on understanding how React works and learning to build functionality independently.
+
+# 🎯 My Goal
+
+  - My goal is to become a skilled React Developer with strong React fundamentals, practical component development experience, 
+    and the ability to build interactive and reusable user interfaces independently.
+  - This repository represents my daily React practice, learning progress, practical implementations, and continuous improvement as a developer.
+
+# 🤝 Connect With Me
+  
+  GitHub: Krishna4307
+
+# ⭐ Thank you for visiting my repository!
