@@ -1,5 +1,16 @@
-import { useState } from "react";
+// ============================================
+//             Task Requirements
+// ============================================
 
+// Requirements:
+// - Display all products initially.
+// - Add a search input.
+// - Filter products while typing.
+// - Search should be case-insensitive.
+// - Display "No products found" when there are no matches.
+
+
+import { useState } from "react";
 const productsArr = ["Laptop","Mobile","Keyboard","Mouse","Monitor","Tablet"];
 function Task11(){
     const[products,setproducts]=useState(productsArr);

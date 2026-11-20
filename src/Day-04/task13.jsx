@@ -1,5 +1,17 @@
-import { useState } from "react";
+// ============================================
+//             Task Requirements
+// ============================================
 
+// Requirements:
+// - Add an expense name.
+// - Add an expense amount.
+// - Display all expenses.
+// - Delete individual expenses.
+// - Calculate the total expenses.
+// - Display the number of expenses.
+
+
+import { useState } from "react";
 function Task13(){
     const[expenses,setExpenses]=useState([]);
     const[expenseName,setExpenseName]=useState("");

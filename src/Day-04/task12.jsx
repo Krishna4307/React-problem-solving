@@ -1,5 +1,16 @@
-import { useState } from "react";
+// ============================================
+//             Task Requirements
+// ============================================
 
+// Requirements:
+// - Add students using an input field.
+// - Display all students.
+// - Delete a particular student.
+// - Prevent empty student names.
+// - Assign a unique ID to each student.
+
+
+import { useState } from "react";
 function Task12(){
     const[students,setStudents]=useState([]);
     const[newStudent,setNewStudent]=useState("");
