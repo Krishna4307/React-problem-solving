@@ -1,5 +1,36 @@
-import { useState } from "react";
+// ============================================
+//             Task Requirements
+// ============================================
 
+// Requirements:
+// 1. Display all employees.
+// 2. Provide Present and Absent buttons for each employee.
+// 3. Update the employee's status when a button is clicked.
+// 4. Allow changing the status from Present to Absent and vice versa.
+// 5. Display total Present employees.
+// 6. Display total Absent employees.
+// 7. Display total employees not yet marked.
+// 8. Add filters: All, Present, Absent, Not Marked.
+
+// Expected Ouptu:-
+ 
+// Initally : {
+//   totalEmployees: 4,
+//   present: 0,
+//   absent: 0,
+//   notMarked: 4
+// }
+
+// After marking Rahul Present and Priya Absent:
+// {
+//   totalEmployees: 4,
+//   present: 1,
+//   absent: 1,
+//   notMarked: 2
+// }
+
+
+import { useState } from "react";
 const employeesArr = [
   { id: 1, name: "Rahul", status: "Not Marked" },
   { id: 2, name: "Priya", status: "Not Marked" },

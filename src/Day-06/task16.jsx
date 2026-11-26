@@ -1,3 +1,25 @@
+// ============================================
+//             Task Requirements
+// ============================================
+// Requirements:-
+
+// 1. Display all products.
+// 2. Add a product to the wishlist.
+// 3. If a product is already in the wishlist, don't add it again.
+// 4. Remove a product from the wishlist.
+// 5. Display the total number of wishlist items.
+// 6. Display a message when the wishlist is empty.
+// 7. Add a button to move a wishlist item to a cart.
+// 8. Prevent adding the same product to the cart more than once.
+// Expected behavior:
+// - Initially: 4 products, 0 wishlist items, 0 cart items.
+// - Add Laptop: wishlist count becomes 1.
+// - Add Laptop again: wishlist count remains 1.
+// - Add Mobile: wishlist count becomes 2.
+// - Remove Laptop: wishlist count becomes 1.
+// - Move Mobile to cart: wishlist count becomes 0, cart count becomes 1.
+
+
 import { useState } from "react";
 const productsArr = [
   { id: 1, name: "Laptop", price: 50000 },
