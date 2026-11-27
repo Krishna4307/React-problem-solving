@@ -13,6 +13,11 @@ import Task12 from "./Day-04/task12";
 import Task13 from "./Day-04/task13";
 import Task14 from "./Day-05/task14";
 import Task15 from "./Day-05/task15";
+import Task16 from "./Day-06/task16";
+import Task17 from "./Day-06/task17";
+import Task18 from "./Day-07/task18";
+import Task19 from "./Day-07/task19";
+
 function App(){
     return(
         <>
@@ -30,7 +35,11 @@ function App(){
             {/* <Task12/> */}
             {/* <Task13/> */}
             {/* <Task14/> */}
-            <Task15/>
+            {/* <Task15/> */}
+            {/* <Task16/> */}
+            {/* <Task17/> */}
+            {/* <Task18/> */}
+            <Task19/>
         </>
     )
 }
